@@ -11,7 +11,7 @@ export default function GenericList(props) {
 
     return (
         <section id={sectionName}>
-        <div className="container top-0 flex-col items-center px-10 py-16 mx-auto md:h-screen md:py-32 md:flex-row">
+        <div className="container top-0 flex-col items-center px-10 py-16 mx-auto text-black md:h-screen md:py-32 md:flex-row">
             <div className="mb-20 text-center">
             <HeroIcon icon={iconName} />
             <h1 className="mb-4 text-3xl font-medium text-oat-dark dark:text-white sm:text-4xl title-font">

@@ -6,16 +6,16 @@ export default function About() {
   const [showMessage, setShowMessage] = useState(false);
   return (
     <section id="about">
-      <div className="container flex flex-col items-center px-10 py-20 mx-auto md:h-screen md:flex-row">
+      <div className="container flex flex-col items-center px-10 py-20 mx-auto text-black md:h-screen md:flex-row">
         <div className="flex flex-col items-center mb-16 text-center lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:text-left md:mb-0">
           <h1 className="mb-4 text-3xl font-medium text-oat-dark dark:text-white title-font sm:text-4xl">
             Hi, I'm Jose.
             <br className="hidden lg:inline-block" /> Nice to meet you!
           </h1>
-          <p className="mb-8 leading-relaxed">
+          <p className="mb-8 leading-relaxed text-neutral-200">
             Eccentric millionaire, entrepeneur, deep sea diver... {showMessage && <span>Everything I am not.</span>}
             <br/> 
-            {!showMessage && <a href="#" onClick={() => setShowMessage(true)}>Read More</a>}
+            {!showMessage && <a href="#" onClick={() => setShowMessage(true)}><b>Read More</b></a>}
           </p>
           {showMessage && 
           <div>

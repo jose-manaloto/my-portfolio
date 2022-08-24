@@ -10,6 +10,7 @@ export default function WorkExperience() {
 
   const handleClose = () => {
     setShow({ show: false, data: null });
+    document.body.style.overflow = 'unset';
   };
 
   return (
@@ -21,8 +22,10 @@ export default function WorkExperience() {
             Work Experience
           </h1>
           <p className="mx-auto text-base leading-relaxed xl:w-2/4 lg:w-3/4">
-            Here are the companies I have previously worked for. Click on the company to find out more about my responsiblities there.
+            Here are the companies I have previously worked for, ordered from recent to latest.
           </p>
+          <br/>
+          <p>Click on the company to find out more about my responsiblities there.</p>
         </div>
         <div className="flex flex-wrap -mx-2 lg:w-4/5 sm:mx-auto sm:mb-2">
           {workExperience.map((we) => (
