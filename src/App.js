@@ -8,8 +8,7 @@ import WorkExperience from './components/WorkExperience';
 
 function App() {
   return (
-    <main className="text-gray-400 bg-gray-900 body-font">
-      <Navbar />
+    <main className="text-gray-400 bg-neutral-800		 body-font">
       <About />
       <GenericList header="About me" listItems={[]} iconName="AtSymbolIcon" listIconName="ChevronRightIcon" sectionName="intro" />
       <GenericList header="Skills &amp; Technologies" listItems={skills} iconName="ChipIcon" listIconName="CheckCircleIcon" sectionName="skills" />
