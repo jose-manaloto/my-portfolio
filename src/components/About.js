@@ -8,7 +8,7 @@ export default function About() {
     <section id="about">
       <div className="container flex flex-col items-center px-10 py-20 mx-auto md:h-screen md:flex-row">
         <div className="flex flex-col items-center mb-16 text-center lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:items-start md:text-left md:mb-0">
-          <h1 className="mb-4 text-3xl font-medium text-white title-font sm:text-4xl">
+          <h1 className="mb-4 text-3xl font-medium text-oat-dark dark:text-white title-font sm:text-4xl">
             Hi, I'm Jose.
             <br className="hidden lg:inline-block" /> Nice to meet you!
           </h1>
@@ -19,16 +19,16 @@ export default function About() {
           </p>
           {showMessage && 
           <div>
-          <p className="mb-8 leading-relaxed">So click on Get to Know me to truly see who I am or Get In touch.</p>
+          <p className="mb-8 leading-relaxed">So click on <b>Get to Know me</b> to truly see who I am or <b>Get In touch</b>.</p>
           <div className="flex justify-center">
             <a
               href="#socials"
-              className="inline-flex px-6 py-2 text-lg text-white bg-green-500 border-0 rounded focus:outline-none hover:bg-green-600">
+              className="inline-flex px-6 py-2 text-lg border-0 rounded bg-oat-pink dark:text-white dark:bg-green-500 focus:outline-none dark:hover:bg-green-600 hover:bg-oat-pink-100">
               Get in touch
             </a>
             <a
               href="#intro"
-              className="inline-flex px-6 py-2 ml-4 text-lg text-gray-400 bg-gray-800 border-0 rounded focus:outline-none hover:bg-gray-700 hover:text-white">
+              className="inline-flex px-6 py-2 ml-4 text-lg border-0 rounded dark:text-gray-400 dark:bg-gray-800 focus:outline-none dark:hover:bg-gray-700 hover:text-white bg-oat-dark-100">
               Get to know me
             </a>
           </div> 

@@ -6,7 +6,7 @@ const ListItemIcon = (props) => {
 
   return (
     <>
-      <TheIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
+      <TheIcon className="flex-shrink-0 w-6 h-6 mr-4 text-oat-icon dark:text-green-400" />
     </>
   )
 }
