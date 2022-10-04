@@ -10,6 +10,7 @@ export default function WorkExperience() {
 
   const handleClose = () => {
     setShow({ show: false, data: null });
+    document.body.style.overflow = 'unset';
   };
 
   return (

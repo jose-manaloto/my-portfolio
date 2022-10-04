@@ -26,7 +26,7 @@ export default function Navbar() {
         </nav>
         <a
           href="#socials"
-          className="inline-flex items-center px-3 py-1 mt-4 text-base border-0 rounded dark:bg-gray-800 focus:outline-none hover:bg-gray-700 md:mt-0">
+          className="inline-flex items-center px-3 py-1 mt-4 text-base border-0 rounded dark:bg-gray-800 focus:outline-none hover:text-white md:mt-0">
           Contact Me
           <ArrowRightIcon className="w-4 h-4 ml-1" />
         </a>
